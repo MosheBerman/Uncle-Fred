@@ -39,7 +39,7 @@
 	[self.tableView setBackgroundView:[[[UIImageView alloc] initWithImage:[[[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"phrases" ofType:@"png"]] autorelease]]autorelease]];
 	
 	//store a copy of the phrases array
-	self.phrases = [[[NSArray alloc] initWithArray:[PREFS objectForKey:@"customphrases"]] autorelease];
+	self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
 }
 
 #pragma mark -
@@ -67,7 +67,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-		self.phrases = [[[NSArray alloc] initWithArray:[PREFS objectForKey:@"customphrases"]] autorelease];
+		self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
 		[self.tableView reloadData];
 
 }
@@ -243,19 +243,19 @@
 
 - (void) restorePhrases{
 	NSArray *tempreplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"ShakenList" ofType:@"plist"]];
-	[PREFS setObject:tempreplies forKey:@"customphrases"];
+	[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
 	[tempreplies release];
 	
-	self.phrases = [[[NSArray alloc] initWithArray:[PREFS objectForKey:@"customphrases"]] autorelease];
+	self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
 	[self.tableView reloadData];
 }
 
 - (void) clearPhrases{
 	NSArray *tempreplies = [[NSMutableArray alloc] initWithObjects:@"Edit this task, or add your own.", nil];
-	[PREFS setObject:tempreplies forKey:@"customphrases"];
+	[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
 	[tempreplies release];
 	
-	self.phrases = [[[NSArray alloc] initWithArray:[PREFS objectForKey:@"customphrases"]] autorelease];
+	self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
 	[self.tableView reloadData];
 }
 

@@ -29,7 +29,7 @@
 		NSString *str = [NSString stringWithFormat: @"%@", [shakeReplies objectAtIndex:(arc4random() % [shakeReplies count])]];
 		decisionText.text = str;
 	}else{
-		if([PREFS boolForKey:@"sound_preference"] == YES){
+		if([[NSUserDefaults standardUserDefaults] boolForKey:@"sound_preference"] == YES){
 		
 			NSURL *url = [[NSURL alloc]initFileURLWithPath:[[NSBundle mainBundle] pathForResource:@"poke" ofType:@"aif"]];
 			
@@ -115,7 +115,7 @@
 
 /* Change eyebrows */
 -(IBAction)toggleEyebrows:(id)sender{
-	if([PREFS boolForKey:@"eyebrows_preference"] == YES){
+	if([[NSUserDefaults standardUserDefaults] boolForKey:@"eyebrows_preference"] == YES){
 		NSArray *hairstyles = [[NSArray alloc] initWithObjects:@"complete_shadow", @"black_hair", @"leaf_hair", @"purple_hair", @"purple_shiny", @"yellow_shiny", @"yellow_flower", @"pastel_hair", @"pastel_brown", @"polka", @"shiny_black", @"orange", @"orange_peel", @"giraffe", nil];
 		NSString *hairTitle = [NSString stringWithFormat: @"%@", [hairstyles objectAtIndex:(arc4random() % [hairstyles count])]];
 		UIImage * hairStyle = [[UIImage alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:hairTitle ofType:@"png"]];
@@ -127,7 +127,7 @@
 
 #pragma mark  "Shaking began" method 
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
-	if([PREFS boolForKey:@"sound_preference"] == YES){
+	if([[NSUserDefaults standardUserDefaults] boolForKey:@"sound_preference"] == YES){
 		NSError *error;
 		NSURL *url = [[NSURL alloc]initFileURLWithPath:[[NSBundle mainBundle] pathForResource:@"shake_short" ofType:@"mp3"]];
 		AVAudioPlayer *myplayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
@@ -151,8 +151,8 @@
 - (void) viewWillAppear:(BOOL)animated{
 		//ensure that custom phrases are effective immediately, without restarting the app.
 		[shakeReplies removeAllObjects];
-		[shakeReplies addObjectsFromArray:[PREFS arrayForKey:@"customphrases"]];
-	if([PREFS boolForKey:@"custom_preference"] == NO){
+		[shakeReplies addObjectsFromArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"]];
+	if([[NSUserDefaults standardUserDefaults] boolForKey:@"custom_preference"] == NO){
 		editorButton.hidden = YES;
 	}
 }
@@ -162,7 +162,7 @@
 	decisionText.text = @"Hi, I'm Uncle Fred. \n Shake me.";
     
     pokeReplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"PokedList" ofType:@"plist"]];
-    shakeReplies = [[NSMutableArray alloc] initWithArray:[PREFS arrayForKey:@"customphrases"] ];
+    shakeReplies = [[NSMutableArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"] ];
     
     if (![TWTweetComposeViewController canSendTweet]) {
         self.tweetButton.hidden = YES;

@@ -43,7 +43,7 @@
 	if([mode isEqualToString:@"edit"]){
 		phraseBox.text = self.phrase;
 		phraseBox.clearsOnBeginEditing = NO;
-		if([[PREFS arrayForKey:@"customphrases"] count] > 1){
+		if([[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"] count] > 1){
 			deleteButton.hidden = NO;
 		}else{
 			deleteButton.hidden = YES;
@@ -68,7 +68,7 @@
 - (IBAction)savePhrase:(id)sender{
 	
 	//a temp array for adding purposes
-	NSMutableArray *tempphrases = [[NSMutableArray alloc] initWithArray:[PREFS objectForKey:@"customphrases"]];
+	NSMutableArray *tempphrases = [[NSMutableArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
 	
 	//check against saving an empty phrase
 	if(![phraseBox.text isEqualToString:@""]){
@@ -90,7 +90,7 @@
 
 		
 		//save the phrases 
-		[PREFS setObject:tempphrases forKey:@"customphrases"];
+		[[NSUserDefaults standardUserDefaults] setObject:tempphrases forKey:@"customphrases"];
 		
 		
 		//return to the edit view
@@ -115,7 +115,7 @@
 
 - (IBAction) deletePhrase:(id)sender{
 	if([mode isEqualToString:@"edit"]){
-		if([[PREFS objectForKey:@"customphrases"] count] > 1){
+		if([[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"] count] > 1){
 			UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"Are you sure?"
 														message:@"Are you sure that you want to delete this phrase? You can't undo this."
 													   delegate:self
@@ -139,13 +139,13 @@
 
 - (void) deletePhraseConfirmed{
 	if([mode isEqualToString:@"edit"]){
-		if([[PREFS objectForKey:@"customphrases"] count] > 1){
+		if([[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"] count] > 1){
 			
-			NSMutableArray *tempphrases = [[NSMutableArray alloc] initWithArray:[PREFS objectForKey:@"customphrases"]];
+			NSMutableArray *tempphrases = [[NSMutableArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
 			
 			[tempphrases removeObjectAtIndex:[phraseID unsignedIntegerValue]];
 			
-			[PREFS setObject:tempphrases forKey:@"customphrases"];
+			[[NSUserDefaults standardUserDefaults] setObject:tempphrases forKey:@"customphrases"];
 			
 			[tempphrases release];
 			

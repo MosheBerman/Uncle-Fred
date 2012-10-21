@@ -9,16 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-#define PREFS [NSUserDefaults standardUserDefaults]
-
 @class iDecideViewController;
 
-@interface iDecideAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    iDecideViewController *viewController;
-	NSArray *customphrases;
-	
-}
+@interface iDecideAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet iDecideViewController *viewController;

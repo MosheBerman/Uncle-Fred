@@ -20,22 +20,19 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
-# pragma mark -
-	
-#pragma mark First Run Setup
-	if([PREFS boolForKey:@"previouslyrun"] != YES){
+	if([[NSUserDefaults standardUserDefaults] boolForKey:@"previouslyrun"] != YES){
 	//if(1){
 		/*first Run */
 		
 		/* set the custom phrases */
 
-		[PREFS setBool:YES forKey:@"sound_preference"];
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"sound_preference"];
 		
-		[PREFS setBool:YES forKey:@"eyebrows_preference"];
-		[PREFS setBool:YES forKey:@"custom_preference"];
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"eyebrows_preference"];
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"custom_preference"];
 		
 		NSArray *tempreplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"ShakenList" ofType:@"plist"]];
-		[PREFS setObject:tempreplies forKey:@"customphrases"];
+		[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
 		[tempreplies release];
 		
 		
@@ -47,7 +44,7 @@
 		*/
 		
 		// Remember that we have gone through first run before //
-		[PREFS setBool:YES forKey:@"previouslyrun"];
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"previouslyrun"];
 	}
 	
     // Override point for customization after app launch    
