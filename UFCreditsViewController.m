@@ -6,10 +6,10 @@
 //  Copyright 2010 YetAnotheriPhoneApp. All rights reserved.
 //
 
-#import "Credits.h"
+#import "UFCreditsViewController.h"
 
 
-@implementation Credits
+@implementation UFCreditsViewController
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@class iDecideViewController;
+@class UFShakeViewController;
 
-@interface iDecideAppDelegate : NSObject <UIApplicationDelegate>
+@interface UFAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, strong) IBOutlet UIWindow *window;
-@property (nonatomic, strong) IBOutlet iDecideViewController *viewController;
+@property (nonatomic, strong) IBOutlet UFShakeViewController *viewController;
 @property (nonatomic, strong) NSArray *customphrases;
 
 @end

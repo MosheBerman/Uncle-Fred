@@ -11,11 +11,11 @@
 #import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVFoundation.h>
 
-#import "Phrases.h"
+#import "UFPhrasesListViewController.h"
 #import "NavController.h"
-#import "Credits.h"
+#import "UFCreditsViewController.h"
 
-@interface iDecideViewController : UIViewController {
+@interface UFShakeViewController : UIViewController {
 	IBOutlet UILabel *decisionText;
 	IBOutlet UIButton *bgImage; //the main button, the background
 	IBOutlet UIButton *infoButton; //info button
@@ -26,7 +26,7 @@
 	
 	NavController *phrasesEditor;
 	
-	Credits *creditsView;
+	UFCreditsViewController *creditsView;
 }
 
 @property (strong, nonatomic) UILabel *decisionText;
@@ -39,7 +39,7 @@
 @property (nonatomic, strong) UIImageView *eyebrows;
 @property (nonatomic,strong) NavController *phrasesEditor;
 @property (nonatomic, strong) UIButton *editorButton;
-@property (nonatomic,strong) Credits *creditsView;
+@property (nonatomic,strong) UFCreditsViewController *creditsView;
 @property (strong, nonatomic) IBOutlet UIButton *tweetButton;
 
 -(IBAction)buttonPressed:(id)sender;

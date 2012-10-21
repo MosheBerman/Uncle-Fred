@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "iDecideAppDelegate.h"
+#import "UFAppDelegate.h"
 
 @interface phraseDetail : UIViewController <UITextFieldDelegate>{
 	IBOutlet UITextField *phraseBox;

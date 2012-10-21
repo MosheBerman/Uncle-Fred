@@ -6,20 +6,19 @@
 //  Copyright Moshe Berman 2010. All rights reserved.
 //
 
-#import "iDecideViewController.h"
-#import "Phrases.h"
+#import "UFShakeViewController.h"
+#import "UFPhrasesListViewController.h"
 #import "phraseDetail.h"
 #import "NavController.h"
 #import <Twitter/Twitter.h>
 
 
-@implementation iDecideViewController
+@implementation UFShakeViewController
 @synthesize tweetButton;
 
 @synthesize decisionText, shakeReplies, pokeReplies, bgImage, infoButton, eyebrows, phrasesEditor, editorButton, creditsView;
 
-#pragma mark -
-#pragma mark Custom Methods
+#pragma mark - Custom Methods
 /* Generate random label and apply it */
 
 -(void)genRandom:(BOOL)deviceWasShaken{
@@ -53,7 +52,7 @@
 
 -(IBAction)showCredits:(id)sender{
 
-	Credits *cr = [[Credits alloc] initWithNibName:@"Credits" bundle:nil];
+	UFCreditsViewController *cr = [[UFCreditsViewController alloc] initWithNibName:@"Credits" bundle:nil];
 	
 	[cr.view setFrame:CGRectMake(0, 0, (self.view.frame.size.width), (self.view.frame.size.height))];
 	
@@ -102,7 +101,7 @@
 
 -(IBAction)showEditPhrases:(id)sender{
 
-	Phrases *phrasesTable = [[Phrases alloc] initWithStyle:UITableViewStyleGrouped ];
+	UFPhrasesListViewController *phrasesTable = [[UFPhrasesListViewController alloc] initWithStyle:UITableViewStyleGrouped ];
 	phrasesEditor = [[NavController alloc] initWithRootViewController:phrasesTable];
 	phrasesEditor.title = @"Phrases";
 	

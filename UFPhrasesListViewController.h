@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "iDecideAppDelegate.h"
+#import "UFAppDelegate.h"
 
-@interface Phrases : UITableViewController <UIAlertViewDelegate>{
+@interface UFPhrasesListViewController : UITableViewController <UIAlertViewDelegate>{
 	UIBarButtonItem * doneButton;
 	NSArray *phrases;
 }

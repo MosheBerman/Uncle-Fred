@@ -6,8 +6,8 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "iDecideViewController.h"
-#import "Phrases.h"
+#import "UFShakeViewController.h"
+#import "UFPhrasesListViewController.h"
 #import "phraseDetail.h"
 #import "NavController.h"
 

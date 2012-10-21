@@ -10,7 +10,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface Credits : UIViewController {
+@interface UFCreditsViewController : UIViewController {
 
 }
 

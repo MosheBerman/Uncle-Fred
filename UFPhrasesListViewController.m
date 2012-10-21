@@ -6,10 +6,10 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "Phrases.h"
+#import "UFPhrasesListViewController.h"
 #import "phraseDetail.h"
 
-@implementation Phrases
+@implementation UFPhrasesListViewController
 
 @synthesize doneButton;
 @synthesize phrases;
@@ -33,7 +33,7 @@
 	[self.navigationController.navigationBar setTranslucent:YES];
 	[self.navigationController.navigationBar setTintColor:[UIColor brownColor ]];
 	
-	[self setTitle:@"Phrases"];
+	[self setTitle:@"UFPhrasesListViewController"];
 	
 	[self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"phrases" ofType:@"png"]]]];
 	
