@@ -1,1026 +1,0 @@
-TMGTwitterEngine
-v7
-r0
-t299430081.991954
-cCheck dependencies
-cProcessInfoPlistFile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Info.plist Info.plist
-cStripNIB /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/MainMenu.nib
-cCopyStringsFile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cProcessPCH /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch.gch MGTwitterEngine_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch.gch MGTwitterEngine_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/main.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/AppController.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSString+UUID.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSData+Base64.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/main.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine normal i386
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/AppController.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterHTTPURLConnection.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSString+UUID.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSData+Base64.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine normal ppc
-cCreateUniversalBinary /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/MacOS/MGTwitterEngine normal "i386 ppc"
-cTouch /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004C1FDB2200000000000000EE
-t1277156130
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004864A1C900000000000012EE
-t1214554569
-s4846
-
-N/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2/libxml/xmlreader.h
-c0000000048649A380000000000002CD1
-t1214552632
-s11473
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.h
-c000000004C221E530000000000000123
-t1277304403
-s291
-i<Cocoa/Cocoa.h>
-i"MGTwitterEngine.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m
-c000000004C221E530000000000000939
-t1277304403
-s2361
-i"AppController.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/InfoPlist.strings
-c000000004C221E5300000000000000C8
-t1277304403
-s200
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/MainMenu.nib
-c000000004C221E5300000000000000AA
-t1277304403
-s170
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.h
-c000000004C221E530000000000001751
-t1277304403
-s5969
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterEngineDelegate.h"
-i"MGTwitterParserDelegate.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m
-c000000004C28AC61000000000000B1B5
-t1277733985
-s45493
-i"MGTwitterEngine.h"
-i"MGTwitterHTTPURLConnection.h"
-i"NSData+Base64.h"
-i"MGTwitterStatusesLibXMLParser.h"
-i"MGTwitterMessagesLibXMLParser.h"
-i"MGTwitterUsersLibXMLParser.h"
-i"MGTwitterMiscLibXMLParser.h"
-i"MGTwitterStatusesParser.h"
-i"MGTwitterUsersParser.h"
-i"MGTwitterMessagesParser.h"
-i"MGTwitterMiscParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngineDelegate.h
-c000000004C221E530000000000000364
-t1277304403
-s868
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngineGlobalHeader.h
-c000000004C221E53000000000000016E
-t1277304403
-s366
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<Cocoa/Cocoa.h>
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine_Prefix.pch
-c000000004C221E5300000000000000A1
-t1277304403
-s161
-i<Cocoa/Cocoa.h>
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.h
-c000000004C221E530000000000000485
-t1277304403
-s1157
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterRequestTypes.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m
-c000000004C221E530000000000000978
-t1277304403
-s2424
-i"MGTwitterHTTPURLConnection.h"
-i"NSString+UUID.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.h
-c000000004C221E530000000000000600
-t1277304403
-s1536
-i"MGTwitterEngineGlobalHeader.h"
-i<libxml/xmlreader.h>
-i"MGTwitterParserDelegate.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m
-c000000004C221E530000000000002684
-t1277304403
-s9860
-i"MGTwitterLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.h
-c000000004C221E53000000000000012A
-t1277304403
-s298
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m
-c000000004C221E530000000000000CD2
-t1277304403
-s3282
-i"MGTwitterMessagesLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.h
-c000000004C221E530000000000000122
-t1277304403
-s290
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterStatusesParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m
-c000000004C221E53000000000000076B
-t1277304403
-s1899
-i"MGTwitterMessagesParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.h
-c000000004C221E530000000000000122
-t1277304403
-s290
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m
-c000000004C221E530000000000000527
-t1277304403
-s1319
-i"MGTwitterMiscLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.h
-c000000004C221E530000000000000130
-t1277304403
-s304
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterStatusesParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m
-c000000004C221E53000000000000056A
-t1277304403
-s1386
-i"MGTwitterMiscParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterParserDelegate.h
-c000000004C221E530000000000000278
-t1277304403
-s632
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterRequestTypes.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterRequestTypes.h
-c000000004C221E530000000000000771
-t1277304403
-s1905
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.h
-c000000004C221E53000000000000012A
-t1277304403
-s298
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m
-c000000004C221E5300000000000003A3
-t1277304403
-s931
-i"MGTwitterStatusesLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.h
-c000000004C221E530000000000000118
-t1277304403
-s280
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m
-c000000004C221E53000000000000084B
-t1277304403
-s2123
-i"MGTwitterStatusesParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.h
-c000000004C221E530000000000000124
-t1277304403
-s292
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m
-c000000004C221E530000000000000392
-t1277304403
-s914
-i"MGTwitterUsersLibXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.h
-c000000004C221E53000000000000011C
-t1277304403
-s284
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterStatusesParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m
-c000000004C221E5300000000000006F2
-t1277304403
-s1778
-i"MGTwitterUsersParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.h
-c000000004C221E530000000000000459
-t1277304403
-s1113
-i"MGTwitterEngineGlobalHeader.h"
-i"MGTwitterParserDelegate.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m
-c000000004C221E530000000000001315
-t1277304403
-s4885
-i"MGTwitterXMLParser.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.h
-c000000004C221E530000000000000602
-t1277304403
-s1538
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m
-c000000004C221E530000000000000F65
-t1277304403
-s3941
-i"NSData+Base64.h"
-i<Foundation/Foundation.h>
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.h
-c000000004C221E5300000000000000ED
-t1277304403
-s237
-i"MGTwitterEngineGlobalHeader.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m
-c000000004C221E5300000000000001E3
-t1277304403
-s483
-i"NSString+UUID.h"
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app
-t1277737281
-s102
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Info.plist
-t1277737275
-s797
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/MacOS/MGTwitterEngine
-t1277737281
-s198848
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/PkgInfo
-t1277737275
-s8
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1277737275
-s200
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj/MainMenu.nib
-t1277737275
-s17486
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/AppController.o
-t1277737278
-s15420
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine
-t1277737280
-s89444
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.LinkFileList
-c000000004C28B93B0000000000000A1D
-t1277737275
-s2589
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.o
-t1277737279
-s84224
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o
-t1277737279
-s14524
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterLibXMLParser.o
-t1277737280
-s27388
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o
-t1277737279
-s12452
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesParser.o
-t1277737279
-s11304
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o
-t1277737279
-s9428
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscParser.o
-t1277737279
-s10908
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o
-t1277737280
-s8700
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesParser.o
-t1277737279
-s11592
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o
-t1277737279
-s8668
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersParser.o
-t1277737279
-s11064
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterXMLParser.o
-t1277737279
-s19132
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSData+Base64.o
-t1277737280
-s11044
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSString+UUID.o
-t1277737279
-s6164
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/main.o
-t1277737278
-s4904
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/AppController.o
-t1277737280
-s16596
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine
-t1277737281
-s104640
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.LinkFileList
-c000000004C28B93B0000000000000A0D
-t1277737275
-s2573
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.o
-t1277737280
-s99292
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterHTTPURLConnection.o
-t1277737280
-s15896
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterLibXMLParser.o
-t1277737281
-s31216
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesLibXMLParser.o
-t1277737281
-s13464
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesParser.o
-t1277737281
-s11972
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscLibXMLParser.o
-t1277737281
-s9748
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscParser.o
-t1277737281
-s11376
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesLibXMLParser.o
-t1277737281
-s8924
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesParser.o
-t1277737280
-s12292
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersLibXMLParser.o
-t1277737281
-s8888
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersParser.o
-t1277737281
-s11656
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterXMLParser.o
-t1277737281
-s21056
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSData+Base64.o
-t1277737281
-s12336
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSString+UUID.o
-t1277737280
-s6280
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/main.o
-t1277737280
-s5036
-
-N/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m
-c000000004C221E5300000000000000F2
-t1277304403
-s242
-i<Cocoa/Cocoa.h>
-
-N/usr/lib/libxml2.dylib
-c000000004AB9208C00000000003958C0
-t1253646476
-s3758272
-
-N/var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch.gch
-t1277737278
-s50315472
-
-N/var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch.gch
-t1277737278
-s54002064
-
-NInfo.plist
-c000000004C221E530000000000000350
-t1277304403
-s848
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies299430075#299430075#0(0"0(0#1#0"8650889248#0"0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/AppController.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430078.617274
-e299430078.843399
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/AppController.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m299430078#299430078#0(0"0(0#0#78"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m8645321280#1442"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/AppController.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430078.843483
-e299430079.183972
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m299430078#299430079#0(0"0(0#0#80"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m8641813248#1446"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.036926
-e299430079.202045
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m299430079#299430079#0(0"0(0#0#91"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m8647739840#1468"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterHTTPURLConnection.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.845478
-e299430080.051427
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m299430079#299430080#0(0"0(0#0#86"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m8645757280#1458"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.710230
-e299430079.917683
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m299430079#299430079#0(0"0(0#0#94"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m8622524736#1474"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.381826
-e299430079.543243
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m299430079#299430079#0(0"0(0#0#88"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m8644558400#1462"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMessagesParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.682486
-e299430079.845394
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m299430079#299430079#0(0"0(0#0#90"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m8639678304#1466"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.531598
-e299430079.682384
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m299430079#299430079#0(0"0(0#0#84"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m8640057888#1454"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterMiscParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.917774
-e299430080.090684
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m299430079#299430080#0(0"0(0#0#94"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m8644861632#1474"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430078.871415
-e299430079.036832
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m299430078#299430079#0(0"0(0#0#88"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m8649425120#1462"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterStatusesParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.543332
-e299430079.710141
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m299430079#299430079#0(0"0(0#0#91"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m8639422880#1468"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.357235
-e299430079.531469
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m299430079#299430079#0(0"0(0#0#85"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m8648381984#1456"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterUsersParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.202130
-e299430079.381731
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m299430079#299430079#0(0"0(0#0#83"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m8641939936#1452"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSData+Base64.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430080.051534
-e299430080.194465
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSData+Base64.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m299430080#299430080#0(0"0(0#0#78"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m8644042016#1442"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSData+Base64.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSString+UUID.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430079.184050
-e299430079.357141
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSString+UUID.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m299430079#299430079#0(0"0(0#0#78"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m8643843552#1442"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/NSString+UUID.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/main.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430078.616478
-e299430078.871335
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/main.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m299430078#299430078#0(0"0(0#0#69"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m8622552064#1424"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/main.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/AppController.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.255889
-e299430080.382274
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/AppController.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m299430080#299430080#0(0"0(0#0#78"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m8642490720#1449"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/AppController.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/AppController.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.382357
-e299430080.612022
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m299430080#299430080#0(0"0(0#0#80"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m8649282144#1453"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterHTTPURLConnection.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.723153
-e299430080.839129
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterHTTPURLConnection.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m299430080#299430080#0(0"0(0#0#91"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m8644148928#1475"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterHTTPURLConnection.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterHTTPURLConnection.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.419803
-e299430081.620589
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m299430081#299430081#0(0"0(0#0#86"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m8648346400#1465"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.323740
-e299430081.520234
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m299430081#299430081#0(0"0(0#0#94"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m8639730720#1481"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.025889
-e299430081.161167
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m299430081#299430081#0(0"0(0#0#88"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m8645321920#1469"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMessagesParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMessagesParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.253300
-e299430081.419714
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m299430081#299430081#0(0"0(0#0#90"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m8641463776#1473"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.119981
-e299430081.253208
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m299430081#299430081#0(0"0(0#0#84"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m8644371392#1461"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterMiscParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterMiscParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.520327
-e299430081.678063
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m299430081#299430081#0(0"0(0#0#94"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m8644370944#1481"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.612106
-e299430080.723066
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m299430080#299430080#0(0"0(0#0#88"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m8645171616#1469"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterStatusesParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterStatusesParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersLibXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.161255
-e299430081.323647
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersLibXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m299430081#299430081#0(0"0(0#0#91"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m8642450144#1475"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersLibXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersLibXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.983409
-e299430081.119887
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m299430080#299430081#0(0"0(0#0#85"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m8648817792#1463"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterUsersParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterUsersParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterXMLParser.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.881719
-e299430081.025794
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterXMLParser.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m299430080#299430081#0(0"0(0#0#83"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m8641625024#1459"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterXMLParser.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterXMLParser.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSData+Base64.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430081.620681
-e299430081.746365
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSData+Base64.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m299430081#299430081#0(0"0(0#0#78"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m8643813568#1449"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSData+Base64.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSData+Base64.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSString+UUID.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.839217
-e299430080.983315
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSString+UUID.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m299430080#299430080#0(0"0(0#0#78"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m8643594880#1449"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/NSString+UUID.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/NSString+UUID.o0#
-
-CCompileC build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/main.o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430080.090770
-e299430080.255771
-r1
-xCompileC
-xbuild/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/main.o
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m299430080#299430080#0(0"0(0#0#69"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m8643633984#1431"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -include /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/main.m -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/main.o0#
-
-CCopyStringsFile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s299430075.101202
-e299430075.419047
-r1
-xCopyStringsFile
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings299430075#299430075#0(0"0(0#0#94"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/InfoPlist.strings8649455264#422"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj0#
-
-CCreateUniversalBinary /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/MacOS/MGTwitterEngine normal "i386 ppc"
-s299430081.944730
-e299430081.989050
-r1
-xCreateUniversalBinary
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/MacOS/MGTwitterEngine
-xnormal
-xi386 ppc
-lSLF07#2@102"CreateUniversalBinary build/Debug/MGTwitterEngine.app/Contents/MacOS/MGTwitterEngine normal "i386 ppc"299430081#299430081#0(0"0(0#0#71"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/i386 ppc8645010720#539"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    /usr/bin/lipo -create /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine -output /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/MacOS/MGTwitterEngine0#
-
-CLd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine normal i386
-s299430080.194699
-e299430080.881616
-r1
-xLd
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine
-xnormal
-xi386
-lSLF07#2@159"Link /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine299430080#299430080#0(0"0(0#0#0"8642632928#734"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -filelist /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lxml2 -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/i386/MGTwitterEngine0#
-
-CLd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine normal ppc
-s299430081.746479
-e299430081.944649
-r1
-xLd
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine
-xnormal
-xppc
-lSLF07#2@158"Link /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine299430081#299430081#0(0"0(0#0#0"8642879040#731"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -filelist /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -lxml2 -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/Objects-normal/ppc/MGTwitterEngine0#
-
-CProcessInfoPlistFile /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Info.plist Info.plist
-s299430075.082044
-e299430075.100352
-r1
-xProcessInfoPlistFile
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist299430075#299430075#0(0"0(0#0#73"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/Info.plist8642924384#390"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    builtin-infoPlistUtility Info.plist -genpkginfo /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch.gch MGTwitterEngine_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s299430075.420237
-e299430078.593788
-r1
-xProcessPCH
-x/var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch.gch
-xMGTwitterEngine_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Precompile MGTwitterEngine_Prefix.pch299430075#299430078#0(0"0(0#0#89"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine_Prefix.pch8644415456#1308"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/ppc -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine_Prefix.pch -o /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-capancmpwawxtibvtgqapunfqqhj/MGTwitterEngine_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch.gch MGTwitterEngine_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s299430075.419274
-e299430078.616392
-r1
-xProcessPCH
-x/var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch.gch
-xMGTwitterEngine_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@37"Precompile MGTwitterEngine_Prefix.pch299430075#299430078#0(0"0(0#0#89"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine_Prefix.pch8645215168#1300"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/MGTwitterEngine.hmap -F/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/include -I/Developer/SDKs/MacOSX10.5.sdk/usr/include/libxml2 -I<Multiple -Ivalues> -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources/i386 -I/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/MGTwitterEngine.build/Debug/MGTwitterEngine.build/DerivedSources -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/MGTwitterEngine_Prefix.pch -o /var/folders/9b/9bTt68mAGXK-d0Mj6VsSNU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MGTwitterEngine_Prefix-dvtrlfoexslkfofgktsvoagknfrn/MGTwitterEngine_Prefix.pch.gch0#
-
-CStripNIB /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/MainMenu.nib
-s299430075.100434
-e299430075.224229
-r1
-xStripNIB
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/MainMenu.nib
-lSLF07#2@35"StripNIB English.lproj/MainMenu.nib299430075#299430075#0(0"0(0#0#89"/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/MainMenu.nib7599635561425368064#375"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    /Developer/usr/bin/ibtool --strip /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/English.lproj/MainMenu.nib0#
-
-CTouch /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app
-s299430081.989121
-e299430081.991914
-r1
-xTouch
-x/Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app
-lSLF07#2@100"Touch /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app299430081#299430081#0(0"0(0#0#0"8621238304#187"    cd /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8    /usr/bin/touch -c /Users/moshe/Development/iDecide/twitter/MGTwitterEngine-1.0.8/build/Debug/MGTwitterEngine.app0#
-
