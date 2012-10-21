@@ -14,10 +14,6 @@
 
 @implementation iDecideAppDelegate
 
-@synthesize window;
-@synthesize viewController;
-@synthesize customphrases;
-
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
 	if([[NSUserDefaults standardUserDefaults] boolForKey:@"previouslyrun"] != YES){
@@ -48,15 +44,15 @@
 	}
 	
     // Override point for customization after app launch    
-    [window addSubview:viewController.view];
-    [window makeKeyAndVisible];
+    [[self window] setRootViewController:[self viewController]];
+    [[self window] makeKeyAndVisible];
 }
 
 
 - (void)dealloc {
-	[customphrases release];
-    [viewController release];
-    [window release];
+	[_customphrases release];
+    [_viewController release];
+    [_window release];
     [super dealloc];
 }
 
