@@ -29,18 +29,18 @@
 	Credits *creditsView;
 }
 
-@property (retain, nonatomic) UILabel *decisionText;
+@property (strong, nonatomic) UILabel *decisionText;
 
-@property (nonatomic, retain) NSMutableArray* shakeReplies;
-@property (nonatomic, retain) NSMutableArray* pokeReplies;
+@property (nonatomic, strong) NSMutableArray* shakeReplies;
+@property (nonatomic, strong) NSMutableArray* pokeReplies;
 
-@property (nonatomic, retain) UIButton *bgImage;
-@property (nonatomic, retain) UIButton *infoButton;
-@property (nonatomic, retain) UIImageView *eyebrows;
-@property (nonatomic,retain) NavController *phrasesEditor;
-@property (nonatomic, retain) UIButton *editorButton;
-@property (nonatomic,retain) Credits *creditsView;
-@property (retain, nonatomic) IBOutlet UIButton *tweetButton;
+@property (nonatomic, strong) UIButton *bgImage;
+@property (nonatomic, strong) UIButton *infoButton;
+@property (nonatomic, strong) UIImageView *eyebrows;
+@property (nonatomic,strong) NavController *phrasesEditor;
+@property (nonatomic, strong) UIButton *editorButton;
+@property (nonatomic,strong) Credits *creditsView;
+@property (strong, nonatomic) IBOutlet UIButton *tweetButton;
 
 -(IBAction)buttonPressed:(id)sender;
 

@@ -19,15 +19,15 @@
 
 }
 
-@property (nonatomic, retain) UITextField *phraseBox;
+@property (nonatomic, strong) UITextField *phraseBox;
 
-@property (nonatomic, retain) NSString *mode;
+@property (nonatomic, strong) NSString *mode;
 
-@property (nonatomic, retain) NSString *phrase;
+@property (nonatomic, strong) NSString *phrase;
 
-@property (nonatomic, retain) NSNumber *phraseID;
+@property (nonatomic, strong) NSNumber *phraseID;
 
-@property (nonatomic, retain) UIButton *deleteButton;
+@property (nonatomic, strong) UIButton *deleteButton;
 
 - (IBAction)savePhrase:(id)sender;
 

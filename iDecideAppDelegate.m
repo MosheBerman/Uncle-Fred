@@ -29,7 +29,6 @@
 		
 		NSArray *tempreplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"ShakenList" ofType:@"plist"]];
 		[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
-		[tempreplies release];
 		
 		
 		//Welcome message//
@@ -49,12 +48,6 @@
 }
 
 
-- (void)dealloc {
-	[_customphrases release];
-    [_viewController release];
-    [_window release];
-    [super dealloc];
-}
 
 
 @end

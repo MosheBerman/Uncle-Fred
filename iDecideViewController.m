@@ -38,7 +38,6 @@
 			if(!error) { 
                 [myplayer play];
             }
-			[url release];
 		}
 		NSString *str = [NSString stringWithFormat: @"%@", [pokeReplies objectAtIndex:(arc4random() % [pokeReplies count])]];
 		decisionText.text = str;	
@@ -62,7 +61,6 @@
 	
 	[self.view addSubview:creditsView.view];
 	[self attachPopUpAnimation];
-	[cr release];
 	
 }
 
@@ -108,7 +106,6 @@
 	phrasesEditor = [[NavController alloc] initWithRootViewController:phrasesTable];
 	phrasesEditor.title = @"Phrases";
 	
-	[phrasesTable release];
 
 	[self presentModalViewController:phrasesEditor animated:YES];
 }
@@ -120,8 +117,6 @@
 		NSString *hairTitle = [NSString stringWithFormat: @"%@", [hairstyles objectAtIndex:(arc4random() % [hairstyles count])]];
 		UIImage * hairStyle = [[UIImage alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:hairTitle ofType:@"png"]];
 		[eyebrows setImage:hairStyle];
-		[hairStyle release];
-		[hairstyles release];
 	}
 }
 
@@ -132,7 +127,6 @@
 		NSURL *url = [[NSURL alloc]initFileURLWithPath:[[NSBundle mainBundle] pathForResource:@"shake_short" ofType:@"mp3"]];
 		AVAudioPlayer *myplayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
 		if(!error) { [myplayer play]; }
-		[url release];
 	}
 	[self genRandom:TRUE];
 }
@@ -224,8 +218,6 @@
 }
 
 -(void) viewWillUnload{
-	[pokeReplies release];
-	[shakeReplies release];
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
@@ -243,24 +235,8 @@
     [self presentViewController:composer animated:YES completion:^{
         
     }];
-    [composer release];
 
 }
 
-- (void)dealloc {
-	
-	//[[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
-	[creditsView release];
-	[editorButton release];
-	[phrasesEditor release];
-	[eyebrows release];
-	[bgImage release];
-	[infoButton release];
-	[decisionText release];
-	[pokeReplies release];
-	[shakeReplies release];
-    [tweetButton release];
-	[super dealloc];
-}
 
 @end

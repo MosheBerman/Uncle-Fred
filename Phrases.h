@@ -16,8 +16,8 @@
 }
 
  
-@property (nonatomic, retain) UIBarButtonItem * doneButton;
-@property (nonatomic, retain) NSArray *phrases;
+@property (nonatomic, strong) UIBarButtonItem * doneButton;
+@property (nonatomic, strong) NSArray *phrases;
 
 - (void) removeEditor;
 

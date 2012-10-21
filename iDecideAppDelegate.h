@@ -13,9 +13,9 @@
 
 @interface iDecideAppDelegate : NSObject <UIApplicationDelegate>
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet iDecideViewController *viewController;
-@property (nonatomic, retain) NSArray *customphrases;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet iDecideViewController *viewController;
+@property (nonatomic, strong) NSArray *customphrases;
 
 @end
 

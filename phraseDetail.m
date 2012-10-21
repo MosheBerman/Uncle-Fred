@@ -28,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 		
-	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(savePhrase:) ]autorelease];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(savePhrase:) ];
 	
 		phraseBox.keyboardAppearance = UIKeyboardAppearanceAlert;
     phraseBox.inputAccessoryView = deleteButton;
@@ -101,9 +101,7 @@
 		
 	 	UIAlertView *alrt = [[UIAlertView alloc] initWithTitle:@"" message:@"Please add a phrase." delegate:self cancelButtonTitle:@"Okay, I will." otherButtonTitles:nil];
 		[alrt show];
-		[alrt release];
 	}
-	[tempphrases release];
 }
 
 - (IBAction)cancelEdit:(id)sender{
@@ -123,7 +121,6 @@
 											  otherButtonTitles:nil];
 			[a addButtonWithTitle:@"Yes"];
 			[a show];
-			[a release];
 		}else {
 			UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"You can't delete this"
 														message:@"You can't delete this phrase, there are no more phrases."
@@ -131,7 +128,6 @@
 											  cancelButtonTitle:@"Okay"
 											  otherButtonTitles:nil];
 			[a show];
-			[a release];
 		}
 	}
 }
@@ -147,7 +143,6 @@
 			
 			[[NSUserDefaults standardUserDefaults] setObject:tempphrases forKey:@"customphrases"];
 			
-			[tempphrases release];
 			
 			//return to the edit view
 			[self.navigationController popToRootViewControllerAnimated:YES];
@@ -180,14 +175,6 @@
 }
 
 
-- (void)dealloc {
-	[deleteButton release];
-	[phraseID release];
-	[phrase release];
-	[mode release];
-	[phraseBox release];
-	[super dealloc];
-}
 
 
 @end

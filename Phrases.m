@@ -22,24 +22,23 @@
     [super viewDidLoad];
 	
 	//Add the done button to the Nav Bar
-	self.navigationItem.leftBarButtonItem = [ [ [UIBarButtonItem alloc]
+	self.navigationItem.leftBarButtonItem = [ [UIBarButtonItem alloc]
 											   initWithTitle:@"Done" 
 											   style: UIBarButtonItemStyleBordered
 											   target:self
-											   action:@selector(removeEditor)]
-											 autorelease];
+											   action:@selector(removeEditor)];
  
-	self.navigationItem.rightBarButtonItem = [ [ [UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(showAddView)] autorelease];
+	self.navigationItem.rightBarButtonItem = [ [UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(showAddView)];
 
 	[self.navigationController.navigationBar setTranslucent:YES];
 	[self.navigationController.navigationBar setTintColor:[UIColor brownColor ]];
 	
 	[self setTitle:@"Phrases"];
 	
-	[self.tableView setBackgroundView:[[[UIImageView alloc] initWithImage:[[[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"phrases" ofType:@"png"]] autorelease]]autorelease]];
+	[self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"phrases" ofType:@"png"]]]];
 	
 	//store a copy of the phrases array
-	self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
+	self.phrases = [[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
 }
 
 #pragma mark -
@@ -59,7 +58,6 @@
 	detailViewController.title = @"Add A Phrase";
 	detailViewController.phrase = @"Type here...";
 	[self.navigationController pushViewController:detailViewController animated:YES];
-	[detailViewController release];
 
 }
 
@@ -67,7 +65,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-		self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
+		self.phrases = [[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
 		[self.tableView reloadData];
 
 }
@@ -117,7 +115,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 		
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     // TODO: Configure the cell...
@@ -202,26 +200,23 @@
 	//save the phrase in title bar
 	detailViewController.phrase = [[[self.tableView cellForRowAtIndexPath:indexPath] textLabel] text];
 	//pass the ID of the selected item
-	detailViewController.phraseID = [[[NSNumber alloc] initWithUnsignedInteger:[indexPath row]] autorelease];
+	detailViewController.phraseID = [[NSNumber alloc] initWithUnsignedInteger:[indexPath row]];
 	//set the title of the editor
 	detailViewController.title = [NSString stringWithFormat:@"Edit: %@", detailViewController.phrase];
 	//pushthe view controller
 	[self.navigationController pushViewController:detailViewController animated:YES];
 	//release the un-needed copy of the view controller
-	[detailViewController release];
 	}else if ([indexPath section] == 1) {
 		if ([indexPath row] == 0) {
 			UIAlertView  *a = [[UIAlertView alloc] initWithTitle:@"" message:@"Are you sure that you want to restore the orignal phrases? This will delete any phrases or To Do items which you may have added." delegate:self cancelButtonTitle:@"Nope." otherButtonTitles: nil];
 			[a setTag:0];
 			[a addButtonWithTitle:@"Yes, please."];
 			[a show];
-			[a release];
 		}else if ([indexPath row] == 1) {
 			UIAlertView  *a = [[UIAlertView alloc] initWithTitle:@"" message:@"Are you sure that you want to clear all the phrases?" delegate:self cancelButtonTitle:@"No, thank you." otherButtonTitles: nil];
 			[a setTag:1];
 			[a addButtonWithTitle:@"Yes, I am."];
 			[a show];
-			[a release];			
 		}
 	}
 
@@ -244,18 +239,16 @@
 - (void) restorePhrases{
 	NSArray *tempreplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"ShakenList" ofType:@"plist"]];
 	[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
-	[tempreplies release];
 	
-	self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
+	self.phrases = [[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
 	[self.tableView reloadData];
 }
 
 - (void) clearPhrases{
 	NSArray *tempreplies = [[NSMutableArray alloc] initWithObjects:@"Edit this task, or add your own.", nil];
 	[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
-	[tempreplies release];
 	
-	self.phrases = [[[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]] autorelease];
+	self.phrases = [[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
 	[self.tableView reloadData];
 }
 
@@ -275,12 +268,6 @@
 }
 
 
-- (void)dealloc {
-	[phrases release];
-  [doneButton release];
-  [super dealloc];
-	
-}
 
 
 @end
