@@ -16,6 +16,10 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
+    //
+    //  Load up the custom phrases on first run
+    //
+    
 	if([[NSUserDefaults standardUserDefaults] boolForKey:@"previouslyrun"] != YES){
 		
 		/* set the custom phrases */
@@ -32,7 +36,17 @@
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"previouslyrun"];
 	}
 	
-    // Override point for customization after app launch    
+    //
+    //  Prep the UI and go
+    //
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    [self setWindow:window];
+    
+    UFShakeViewController *shakeView = [UFShakeViewController new];
+    
+    [self setViewController:shakeView];
+    
     [[self window] setRootViewController:[self viewController]];
     [[self window] makeKeyAndVisible];
 }
