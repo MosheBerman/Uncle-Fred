@@ -12,14 +12,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* UFShakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* UFShakeViewController.xib */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		464D7CCC11A8C2A7009B82DE /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D7CCA11A8C2A7009B82DE /* NavController.m */; };
-		464D7CCD11A8C2A7009B82DE /* NavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464D7CCB11A8C2A7009B82DE /* NavController.xib */; };
 		464D7E6911A8F66B009B82DE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 464D7E6811A8F66B009B82DE /* Settings.bundle */; };
-		4682BCCA11A73894004F7745 /* phraseDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4682BCC811A73894004F7745 /* phraseDetail.m */; };
-		4682BCCB11A73894004F7745 /* phraseDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4682BCC911A73894004F7745 /* phraseDetail.xib */; };
+		4682BCCA11A73894004F7745 /* UFPhraseDetailEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4682BCC811A73894004F7745 /* UFPhraseDetailEditorViewController.m */; };
+		4682BCCB11A73894004F7745 /* UFPhraseDetailEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4682BCC911A73894004F7745 /* UFPhraseDetailEditorViewController.xib */; };
 		4682BEA711A751D9004F7745 /* UFPhrasesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4682BEA511A751D9004F7745 /* UFPhrasesListViewController.m */; };
-		4682BEA811A751D9004F7745 /* UFPhrasesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4682BEA611A751D9004F7745 /* UFPhrasesListViewController.xib */; };
+		468EBCD0163461A1000EEB9C /* UFShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468EBCCF163461A1000EEB9C /* UFShakeViewController.m */; };
 		469B2838163456EE00F6AD98 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B2831163456EE00F6AD98 /* Icon-72.png */; };
 		469B2839163456EE00F6AD98 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B2832163456EE00F6AD98 /* Icon-Small.png */; };
 		469B283A163456EE00F6AD98 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B2833163456EE00F6AD98 /* Icon-Small@2x.png */; };
@@ -60,11 +57,6 @@
 		469B28B51634573100F6AD98 /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B28671634573100F6AD98 /* stone.png */; };
 		469B28B61634573100F6AD98 /* yellow_flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B28681634573100F6AD98 /* yellow_flower.png */; };
 		469B28B71634573100F6AD98 /* yellow_shiny.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B28691634573100F6AD98 /* yellow_shiny.png */; };
-		469B28B81634573100F6AD98 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B286B1634573100F6AD98 /* Icon-72.png */; };
-		469B28B91634573100F6AD98 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B286C1634573100F6AD98 /* Icon-Small.png */; };
-		469B28BA1634573100F6AD98 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B286D1634573100F6AD98 /* Icon-Small@2x.png */; };
-		469B28BB1634573100F6AD98 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B286E1634573100F6AD98 /* Icon.png */; };
-		469B28BC1634573100F6AD98 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B286F1634573100F6AD98 /* Icon@2x.png */; };
 		469B28BF1634573100F6AD98 /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B28721634573100F6AD98 /* Wallpaper.png */; };
 		469B28C01634573100F6AD98 /* Wallpaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B28731634573100F6AD98 /* Wallpaper@2x.png */; };
 		469B28D61634573100F6AD98 /* Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 469B288E1634573100F6AD98 /* Bird.png */; };
@@ -88,7 +80,6 @@
 		46D6B7AD11E158CF00C1430B /* UFCreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D6B7AB11E158CF00C1430B /* UFCreditsViewController.m */; };
 		46D6B7AE11E158CF00C1430B /* UFCreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D6B7AC11E158CF00C1430B /* UFCreditsViewController.xib */; };
 		46E7792A1197C032007EE541 /* UFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E779271197C032007EE541 /* UFAppDelegate.m */; };
-		46E7792B1197C032007EE541 /* UFShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E779281197C032007EE541 /* UFShakeViewController.m */; };
 		46E7A304121DD22B008971FE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E7A303121DD22B008971FE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,19 +89,16 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* UFShakeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFShakeViewController.xib; sourceTree = "<group>"; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* UncleFred_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncleFred_Prefix.pch; sourceTree = "<group>"; };
-		464D7CC911A8C2A7009B82DE /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
-		464D7CCA11A8C2A7009B82DE /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
-		464D7CCB11A8C2A7009B82DE /* NavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavController.xib; sourceTree = "<group>"; };
 		464D7E6811A8F66B009B82DE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		4682BCC711A73894004F7745 /* phraseDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phraseDetail.h; sourceTree = "<group>"; };
-		4682BCC811A73894004F7745 /* phraseDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = phraseDetail.m; sourceTree = "<group>"; };
-		4682BCC911A73894004F7745 /* phraseDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = phraseDetail.xib; sourceTree = "<group>"; };
+		4682BCC711A73894004F7745 /* UFPhraseDetailEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFPhraseDetailEditorViewController.h; sourceTree = "<group>"; };
+		4682BCC811A73894004F7745 /* UFPhraseDetailEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFPhraseDetailEditorViewController.m; sourceTree = "<group>"; };
+		4682BCC911A73894004F7745 /* UFPhraseDetailEditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFPhraseDetailEditorViewController.xib; sourceTree = "<group>"; };
 		4682BEA411A751D9004F7745 /* UFPhrasesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFPhrasesListViewController.h; sourceTree = "<group>"; };
 		4682BEA511A751D9004F7745 /* UFPhrasesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFPhrasesListViewController.m; sourceTree = "<group>"; };
-		4682BEA611A751D9004F7745 /* UFPhrasesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFPhrasesListViewController.xib; sourceTree = "<group>"; };
+		468EBCCE163461A1000EEB9C /* UFShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFShakeViewController.h; sourceTree = "<group>"; };
+		468EBCCF163461A1000EEB9C /* UFShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFShakeViewController.m; sourceTree = "<group>"; };
 		469B2831163456EE00F6AD98 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icons/Icon-72.png"; sourceTree = "<group>"; };
 		469B2832163456EE00F6AD98 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Images/Icons/Icon-Small.png"; sourceTree = "<group>"; };
 		469B2833163456EE00F6AD98 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Images/Icons/Icon-Small@2x.png"; sourceTree = "<group>"; };
@@ -185,8 +173,6 @@
 		46D6B7AC11E158CF00C1430B /* UFCreditsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UFCreditsViewController.xib; sourceTree = "<group>"; };
 		46E779261197C032007EE541 /* UFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFAppDelegate.h; sourceTree = "<group>"; };
 		46E779271197C032007EE541 /* UFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFAppDelegate.m; sourceTree = "<group>"; };
-		46E779281197C032007EE541 /* UFShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFShakeViewController.m; sourceTree = "<group>"; };
-		46E779291197C032007EE541 /* UFShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFShakeViewController.h; sourceTree = "<group>"; };
 		46E7A303121DD22B008971FE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -395,21 +381,16 @@
 		46E7792E1197C04E007EE541 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				464D7CC911A8C2A7009B82DE /* NavController.h */,
-				464D7CCA11A8C2A7009B82DE /* NavController.m */,
-				464D7CCB11A8C2A7009B82DE /* NavController.xib */,
-				4682BCC711A73894004F7745 /* phraseDetail.h */,
-				4682BCC811A73894004F7745 /* phraseDetail.m */,
-				4682BCC911A73894004F7745 /* phraseDetail.xib */,
+				4682BCC711A73894004F7745 /* UFPhraseDetailEditorViewController.h */,
+				4682BCC811A73894004F7745 /* UFPhraseDetailEditorViewController.m */,
+				4682BCC911A73894004F7745 /* UFPhraseDetailEditorViewController.xib */,
 				46E779261197C032007EE541 /* UFAppDelegate.h */,
 				46E779271197C032007EE541 /* UFAppDelegate.m */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				2899E5210DE3E06400AC0155 /* UFShakeViewController.xib */,
-				46E779291197C032007EE541 /* UFShakeViewController.h */,
-				46E779281197C032007EE541 /* UFShakeViewController.m */,
+				468EBCCE163461A1000EEB9C /* UFShakeViewController.h */,
+				468EBCCF163461A1000EEB9C /* UFShakeViewController.m */,
 				4682BEA411A751D9004F7745 /* UFPhrasesListViewController.h */,
 				4682BEA511A751D9004F7745 /* UFPhrasesListViewController.m */,
-				4682BEA611A751D9004F7745 /* UFPhrasesListViewController.xib */,
 				46D6B7AA11E158CF00C1430B /* UFCreditsViewController.h */,
 				46D6B7AB11E158CF00C1430B /* UFCreditsViewController.m */,
 				46D6B7AC11E158CF00C1430B /* UFCreditsViewController.xib */,
@@ -444,6 +425,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = UF;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Moshe Berman";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UncleFred" */;
@@ -467,11 +449,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* UFShakeViewController.xib in Resources */,
-				4682BCCB11A73894004F7745 /* phraseDetail.xib in Resources */,
-				4682BEA811A751D9004F7745 /* UFPhrasesListViewController.xib in Resources */,
-				464D7CCD11A8C2A7009B82DE /* NavController.xib in Resources */,
+				4682BCCB11A73894004F7745 /* UFPhraseDetailEditorViewController.xib in Resources */,
 				464D7E6911A8F66B009B82DE /* Settings.bundle in Resources */,
 				46D6B7AE11E158CF00C1430B /* UFCreditsViewController.xib in Resources */,
 				469B2838163456EE00F6AD98 /* Icon-72.png in Resources */,
@@ -514,11 +493,6 @@
 				469B28B51634573100F6AD98 /* stone.png in Resources */,
 				469B28B61634573100F6AD98 /* yellow_flower.png in Resources */,
 				469B28B71634573100F6AD98 /* yellow_shiny.png in Resources */,
-				469B28B81634573100F6AD98 /* Icon-72.png in Resources */,
-				469B28B91634573100F6AD98 /* Icon-Small.png in Resources */,
-				469B28BA1634573100F6AD98 /* Icon-Small@2x.png in Resources */,
-				469B28BB1634573100F6AD98 /* Icon.png in Resources */,
-				469B28BC1634573100F6AD98 /* Icon@2x.png in Resources */,
 				469B28BF1634573100F6AD98 /* Wallpaper.png in Resources */,
 				469B28C01634573100F6AD98 /* Wallpaper@2x.png in Resources */,
 				469B28D61634573100F6AD98 /* Bird.png in Resources */,
@@ -547,11 +521,10 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				46E7792A1197C032007EE541 /* UFAppDelegate.m in Sources */,
-				46E7792B1197C032007EE541 /* UFShakeViewController.m in Sources */,
-				4682BCCA11A73894004F7745 /* phraseDetail.m in Sources */,
+				4682BCCA11A73894004F7745 /* UFPhraseDetailEditorViewController.m in Sources */,
 				4682BEA711A751D9004F7745 /* UFPhrasesListViewController.m in Sources */,
-				464D7CCC11A8C2A7009B82DE /* NavController.m in Sources */,
 				46D6B7AD11E158CF00C1430B /* UFCreditsViewController.m in Sources */,
+				468EBCD0163461A1000EEB9C /* UFShakeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UncleFred_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = UncleFred;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "";
@@ -594,7 +567,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UncleFred_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = UncleFred;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90C65A01-5213-4E51-9E1D-0A3F4728C69A";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "90C65A01-5213-4E51-9E1D-0A3F4728C69A";
@@ -618,11 +591,10 @@
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "";
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos;
 				SEPARATE_STRIP = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = "";
@@ -640,7 +612,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UncleFred_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = UncleFred;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "90C65A01-5213-4E51-9E1D-0A3F4728C69A";
 				SDKROOT = iphoneos;
@@ -659,8 +631,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PREBINDING = NO;
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -674,10 +645,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PREBINDING = NO;
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -695,8 +665,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PREBINDING = NO;
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos;
 				SEPARATE_STRIP = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = bld;
@@ -714,7 +683,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = UncleFred_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/lib\"",

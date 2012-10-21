@@ -3,7 +3,7 @@
 //  iDecide
 //
 //  Created by Moshe Berman on 3/8/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright Moshe Berman 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -24,7 +24,6 @@
 @property (nonatomic, strong) UIButton *bgImage;
 @property (nonatomic, strong) UIButton *infoButton;
 @property (nonatomic, strong) UIImageView *eyebrows;
-@property (nonatomic,strong) UINavigationController *phrasesEditor;
 @property (nonatomic, strong) UIButton *editorButton;
 @property (nonatomic,strong) UFCreditsViewController *creditsView;
 @property (strong, nonatomic) IBOutlet UIButton *tweetButton;

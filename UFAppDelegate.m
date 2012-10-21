@@ -3,7 +3,7 @@
 //  iDecide
 //
 //  Created by Moshe Berman on 3/8/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright Moshe Berman 2010. All rights reserved.
 //
 
 #import "UFAppDelegate.h"
@@ -13,7 +13,7 @@
 
 @implementation UFAppDelegate
 
-- (void)applicationDidFinishLaunching:(UIApplication *)application {    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     
     //
     //  Load up the custom phrases on first run
@@ -44,7 +44,8 @@
     //  Prep the UI and go
     //
     
-    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     [self setWindow:window];
     
     UFShakeViewController *shakeView = [UFShakeViewController new];
@@ -52,7 +53,10 @@
     [self setViewController:shakeView];
     
     [[self window] setRootViewController:[self viewController]];
+    
     [[self window] makeKeyAndVisible];
+    
+    return YES;
 }
 
 

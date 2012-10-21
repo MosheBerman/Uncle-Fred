@@ -12,10 +12,6 @@
 		<data>
 		NjfRHfPJeHUmprtJgfgDF92Pg2c=
 		</data>
-		<key>Credits.nib</key>
-		<data>
-		2NemV+L0TJIosdWRPw6VgPQqg+c=
-		</data>
 		<key>Default.png</key>
 		<data>
 		x5F6p5s91T2+7BMbFpUpeXiP1n0=
@@ -23,82 +19,6 @@
 		<key>Default@2x.png</key>
 		<data>
 		0ZE1uTCvbH/hiZNKwW8odpJw1CA=
-		</data>
-		<key>IMG_0265.PNG</key>
-		<data>
-		zPAeh1Ac4eVHLNABEaOr93cPJz8=
-		</data>
-		<key>IMG_0266.PNG</key>
-		<data>
-		zPAeh1Ac4eVHLNABEaOr93cPJz8=
-		</data>
-		<key>IMG_0267.PNG</key>
-		<data>
-		lxsFz8rYPFyTg4zIxOvjfxzDRl8=
-		</data>
-		<key>IMG_0268.PNG</key>
-		<data>
-		lPdzbf4TVFWkTEx3V986O8xXGqs=
-		</data>
-		<key>IMG_0269.PNG</key>
-		<data>
-		IcLS60pi7J7vg+7pJpvGdR2ELp4=
-		</data>
-		<key>IMG_0270.PNG</key>
-		<data>
-		64aGytNW7mFhmGRDi5Ny+3Avbzk=
-		</data>
-		<key>IMG_0271.PNG</key>
-		<data>
-		m4WT/HuAz6/MWS+E8TE9ARhoLh0=
-		</data>
-		<key>IMG_0272.PNG</key>
-		<data>
-		dvKarL2xRrBWkCHU2RheHQE9c/U=
-		</data>
-		<key>IMG_0273.PNG</key>
-		<data>
-		mv1SNRB3SPrH32BXArTnhnKrhtc=
-		</data>
-		<key>IMG_0274.PNG</key>
-		<data>
-		5brZgox2Y3lAiH45LtiH9ZZFqFo=
-		</data>
-		<key>IMG_0275.PNG</key>
-		<data>
-		J/73yFOeskS4yGwu3iRYltumvAE=
-		</data>
-		<key>IMG_0276.PNG</key>
-		<data>
-		uTUYuQhBoNk7vx2uEAa1/8EbYHY=
-		</data>
-		<key>IMG_0392.PNG</key>
-		<data>
-		S/VYAWJ1UMOczd+iwEJZ5/Hk08E=
-		</data>
-		<key>IMG_0393.PNG</key>
-		<data>
-		m0ZXLc9rY8UyjyYajg5IKXKYts0=
-		</data>
-		<key>IMG_0394.PNG</key>
-		<data>
-		yYKH4DDJkLM47TxdZ4kTallqlHA=
-		</data>
-		<key>IMG_0395.PNG</key>
-		<data>
-		1RzWGFbsa4OO6bQHA1nCUXiHn3Q=
-		</data>
-		<key>IMG_0396.PNG</key>
-		<data>
-		jtswzfBjLndYMFoZvCLSR4XUM6M=
-		</data>
-		<key>IMG_0397.PNG</key>
-		<data>
-		gfDhIs2nTk7d2zcHhIGbLwKfOlY=
-		</data>
-		<key>IMG_0398.PNG</key>
-		<data>
-		beJAn3HeX/GL8Vl4zoHMIxIwN7s=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
@@ -128,18 +48,6 @@
 		<data>
 		R+xOGVNgiO9y4trUQ3JhYKM1e7g=
 		</data>
-		<key>MainWindow.nib</key>
-		<data>
-		nhYiAdgch4B1txF5CENoYH8aoE0=
-		</data>
-		<key>NavController.nib</key>
-		<data>
-		9utc68kV0q9wvl4n8Y/Cl9SrFmM=
-		</data>
-		<key>Phrases.nib</key>
-		<data>
-		B64Dp5e33glfPrqZ4H+aBiLx2aA=
-		</data>
 		<key>PkgInfo</key>
 		<data>
 		E/dBXmUuQEyMM5+IMAHQp/o/z/g=
@@ -155,14 +63,6 @@
 		<key>PokedList.plist</key>
 		<data>
 		cmIpD88RcMjxCGRMCGzx1yz20qI=
-		</data>
-		<key>Screenshot 2011.11.11 16.08.31.png</key>
-		<data>
-		tzpgIyZBSAb9ZbeuX4Ce/dTLOIQ=
-		</data>
-		<key>Screenshot 2011.11.11 16.08.52.png</key>
-		<data>
-		JynvBECl/DnqCbtABqw04MdQYmo=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -183,6 +83,18 @@
 		<key>ShakenList.plist</key>
 		<data>
 		9e0JXhengfwmgUDYtckY0yIGwJc=
+		</data>
+		<key>UFCreditsViewController.nib</key>
+		<data>
+		ukikUR7DghquliApW3hNdFx9PPo=
+		</data>
+		<key>UFPhraseDetailEditorViewController.nib</key>
+		<data>
+		02eVDK2iy9W4cZz35KNhKvr8yP0=
+		</data>
+		<key>UFShakeViewController.nib</key>
+		<data>
+		aIuskkWkfmGQD9QHkPWMhHiiwDk=
 		</data>
 		<key>Wallpaper.png</key>
 		<data>
@@ -228,14 +140,6 @@
 		<data>
 		XTuImUfPhUUXuZKoTtME/+ofyks=
 		</data>
-		<key>iDecideViewController.nib</key>
-		<data>
-		FtRG8DguqG54kdpaVulT1nA0H8Y=
-		</data>
-		<key>iTunesArtwork</key>
-		<data>
-		NrKZuehnjzPpRjSrsXTilUYgouQ=
-		</data>
 		<key>iTunesArtwork.png</key>
 		<data>
 		OYl3KEyjrGSzoTRBZIWaG4rBD3w=
@@ -271,10 +175,6 @@
 		<key>pen_up.png</key>
 		<data>
 		adLajcLtXIw+CZDsuBZFpMXWWQw=
-		</data>
-		<key>phraseDetail.nib</key>
-		<data>
-		wa+lp/TrFOnY7cl/po2dLQfKDaw=
 		</data>
 		<key>phraseEditor.png</key>
 		<data>

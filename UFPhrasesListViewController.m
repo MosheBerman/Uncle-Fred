@@ -3,14 +3,34 @@
 //  iDecide
 //
 //  Created by Moshe Berman on 5/21/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Moshe Berman. All rights reserved.
 //
 
 #import "UFPhrasesListViewController.h"
 #import "UFPhraseDetailEditorViewController.h"
 
+@interface UFPhrasesListViewController ()<UITableViewDataSource, UITableViewDelegate>
+
+@end
+
 @implementation UFPhrasesListViewController
 
+- (id)initWithStyle:(UITableViewStyle)style{
+    self = [super initWithStyle:style];
+    
+    if (self) {
+
+    }
+    
+    return self;
+}
+
+- (void)loadView{
+    UITableView *table = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame style:UITableViewStyleGrouped];
+    [table setDelegate:self];
+    [table setDataSource:self];
+    [self setView:table];
+}
 #pragma mark - View lifecycle
 
 
@@ -45,7 +65,7 @@
 }
 
 -(void)showAddView{
-	UFPhraseDetailEditorViewController *detailViewController = [[UFPhraseDetailEditorViewController alloc] initWithNibName:@"phraseDetail" bundle:nil];
+	UFPhraseDetailEditorViewController *detailViewController = [[UFPhraseDetailEditorViewController alloc] initWithNibName:@"UFPhraseDetailEditorViewController" bundle:nil];
 	
 	// Pass the selected object to the new view controller.
 	detailViewController.mode = @"add";
@@ -83,8 +103,7 @@
 */
 
 
-#pragma mark -
-#pragma mark Table view data source
+#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 2;

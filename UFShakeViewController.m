@@ -13,9 +13,6 @@
 
 
 @implementation UFShakeViewController
-@synthesize tweetButton;
-
-@synthesize decisionText, shakeReplies, pokeReplies, bgImage, infoButton, eyebrows, phrasesEditor, editorButton, creditsView;
 
 #pragma mark - Custom Methods
 /* Generate random label and apply it */
@@ -24,8 +21,8 @@
 	[self toggleEyebrows:nil];
 	if(deviceWasShaken == TRUE){
 		
-		NSString *str = [NSString stringWithFormat: @"%@", [shakeReplies objectAtIndex:(arc4random() % [shakeReplies count])]];
-		decisionText.text = str;
+		NSString *str = [NSString stringWithFormat: @"%@", [[self shakeReplies] objectAtIndex:(arc4random() % [[self shakeReplies] count])]];
+		[self decisionText].text = str;
 	}else{
 		if([[NSUserDefaults standardUserDefaults] boolForKey:@"sound_preference"] == YES){
 		
@@ -37,8 +34,8 @@
                 [myplayer play];
             }
 		}
-		NSString *str = [NSString stringWithFormat: @"%@", [pokeReplies objectAtIndex:(arc4random() % [pokeReplies count])]];
-		decisionText.text = str;	
+		NSString *str = [NSString stringWithFormat: @"%@", [[self pokeReplies] objectAtIndex:(arc4random() % [[self pokeReplies] count])]];
+		[self decisionText].text = str;
 	}
 	
 }
@@ -57,7 +54,7 @@
 	
 	self.creditsView = cr;
 	
-	[self.view addSubview:creditsView.view];
+	[self.view addSubview:[self creditsView].view];
 	[self attachPopUpAnimation];
 	
 }
@@ -95,25 +92,24 @@
 	return animation;
 }
 
-#pragma mark -
-#pragma mark Edit Phrases
+#pragma mark -  Edit Phrases
 
 -(IBAction)showEditPhrases:(id)sender{
 
-	UFPhrasesListViewController *phrasesTable = [[UFPhrasesListViewController alloc] initWithStyle:UITableViewStyleGrouped ];
-	phrasesEditor = [[UINavigationController alloc] initWithRootViewController:phrasesTable];
-	phrasesEditor.title = @"Phrases";
+	UFPhrasesListViewController *phrasesTable = [[UFPhrasesListViewController alloc] initWithStyle:UITableViewStyleGrouped];
+	UINavigationController *phrasesNavigationController = [[UINavigationController alloc] initWithRootViewController:phrasesTable];
 
-	[self presentModalViewController:phrasesEditor animated:YES];
+    [self presentViewController:phrasesNavigationController animated:YES completion:nil];
 }
 
 /* Change eyebrows */
 -(IBAction)toggleEyebrows:(id)sender{
 	if([[NSUserDefaults standardUserDefaults] boolForKey:@"eyebrows_preference"] == YES){
-		NSArray *hairstyles = [[NSArray alloc] initWithObjects:@"complete_shadow", @"black_hair", @"leaf_hair", @"purple_hair", @"purple_shiny", @"yellow_shiny", @"yellow_flower", @"pastel_hair", @"pastel_brown", @"polka", @"shiny_black", @"orange", @"orange_peel", @"giraffe", nil];
+		NSArray *hairstyles = @[@"complete_shadow", @"black_hair", @"leaf_hair", @"purple_hair", @"purple_shiny", @"yellow_shiny", @"yellow_flower", @"pastel_hair", @"pastel_brown", @"polka", @"shiny_black", @"orange", @"orange_peel", @"giraffe"];
+        
 		NSString *hairTitle = [NSString stringWithFormat: @"%@", [hairstyles objectAtIndex:(arc4random() % [hairstyles count])]];
 		UIImage * hairStyle = [[UIImage alloc]initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:hairTitle ofType:@"png"]];
-		[eyebrows setImage:hairStyle];
+		[[self eyebrows] setImage:hairStyle];
 	}
 }
 
@@ -128,12 +124,6 @@
 	[self genRandom:TRUE];
 }
 
-
-#pragma mark -
-#pragma mark Twitter Engine
-
-#pragma mark -
-
 -(BOOL)canBecomeFirstResponder {
     return YES;
 }
@@ -141,19 +131,19 @@
 
 - (void) viewWillAppear:(BOOL)animated{
 		//ensure that custom phrases are effective immediately, without restarting the app.
-		[shakeReplies removeAllObjects];
-		[shakeReplies addObjectsFromArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"]];
+		[[self shakeReplies] removeAllObjects];
+		[[self shakeReplies] addObjectsFromArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"]];
 	if([[NSUserDefaults standardUserDefaults] boolForKey:@"custom_preference"] == NO){
-		editorButton.hidden = YES;
+		[self editorButton].hidden = YES;
 	}
 }
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	decisionText.text = @"Hi, I'm Uncle Fred. \n Shake me.";
+	[self decisionText].text = @"Hi, I'm Uncle Fred. \n Shake me.";
     
-    pokeReplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"PokedList" ofType:@"plist"]];
-    shakeReplies = [[NSMutableArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"] ];
+    self.pokeReplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"PokedList" ofType:@"plist"]];
+    self.shakeReplies = [[NSMutableArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] arrayForKey:@"customphrases"] ];
     
     if (![TWTweetComposeViewController canSendTweet]) {
         self.tweetButton.hidden = YES;
@@ -171,38 +161,12 @@
     [super viewWillDisappear:animated];
 }
 
-/*
-- (void)orientationChanged:(NSNotification *)notif{
-	
-	
-}
-*/
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
 #pragma mark -
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
-	if(interfaceOrientation == UIDeviceOrientationPortrait){
-		return YES;
-	}else{
-		return NO;
-	}
+	return interfaceOrientation == UIDeviceOrientationPortrait;
 }
 
 
@@ -227,7 +191,7 @@
 - (IBAction)sendTweet{
     TWTweetComposeViewController *composer = [[TWTweetComposeViewController alloc] init];
     
-    [composer setInitialText:decisionText.text];
+    [composer setInitialText:[self decisionText].text];
     
     [self presentViewController:composer animated:YES completion:^{
         

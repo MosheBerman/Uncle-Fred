@@ -1,7 +1,6 @@
 /Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/main.o
-/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/iDecideAppDelegate.o
-/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/iDecideViewController.o
-/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/phraseDetail.o
-/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/Phrases.o
-/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/NavController.o
-/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/Credits.o
+/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/UFAppDelegate.o
+/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/UFPhraseDetailEditorViewController.o
+/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/UFPhrasesListViewController.o
+/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/UFCreditsViewController.o
+/Users/Moshe/Code/iOS/Projects/Uncle Fred/build/UncleFred.build/Debug-iphoneos/UncleFred.build/Objects-normal/armv7/UFShakeViewController.o
