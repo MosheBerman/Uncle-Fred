@@ -7,10 +7,9 @@
 //
 
 #import "UFAppDelegate.h"
-#import "iDecideViewController.h"
-#import "Phrases.h"
-#import "phraseDetail.h"
-#import "NavController.h"
+#import "UFShakeViewController.h"
+#import "UFPhrasesListViewController.h"
+#import "UFPhraseDetailEditorViewController.h"
 
 @implementation UFAppDelegate
 
@@ -22,7 +21,9 @@
     
 	if([[NSUserDefaults standardUserDefaults] boolForKey:@"previouslyrun"] != YES){
 		
-		/* set the custom phrases */
+        //
+        //  Initialis user defaults which are accessible via the Settings app
+        //
 
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"sound_preference"];
 		
@@ -32,7 +33,10 @@
 		NSArray *tempreplies = [[NSMutableArray alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"ShakenList" ofType:@"plist"]];
 		[[NSUserDefaults standardUserDefaults] setObject:tempreplies forKey:@"customphrases"];
 		
-		// Remember that we have gone through first run before //
+        //
+		// Save the fact that we have gone through first run before
+        //
+        
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"previouslyrun"];
 	}
 	

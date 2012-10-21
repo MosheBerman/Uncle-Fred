@@ -10,9 +10,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface UFCreditsViewController : UIViewController {
-
-}
+@interface UFCreditsViewController : UIViewController
 
 - (IBAction) dismiss;
 

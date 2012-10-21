@@ -12,22 +12,9 @@
 #import <AVFoundation/AVFoundation.h>
 
 #import "UFPhrasesListViewController.h"
-#import "NavController.h"
 #import "UFCreditsViewController.h"
 
-@interface UFShakeViewController : UIViewController {
-	IBOutlet UILabel *decisionText;
-	IBOutlet UIButton *bgImage; //the main button, the background
-	IBOutlet UIButton *infoButton; //info button
-	IBOutlet UIImageView *eyebrows; //eyebrows image
-	IBOutlet UIButton *editorButton;
-	NSMutableArray* shakeReplies;
-	NSMutableArray* pokeReplies;
-	
-	NavController *phrasesEditor;
-	
-	UFCreditsViewController *creditsView;
-}
+@interface UFShakeViewController : UIViewController
 
 @property (strong, nonatomic) UILabel *decisionText;
 
@@ -37,7 +24,7 @@
 @property (nonatomic, strong) UIButton *bgImage;
 @property (nonatomic, strong) UIButton *infoButton;
 @property (nonatomic, strong) UIImageView *eyebrows;
-@property (nonatomic,strong) NavController *phrasesEditor;
+@property (nonatomic,strong) UINavigationController *phrasesEditor;
 @property (nonatomic, strong) UIButton *editorButton;
 @property (nonatomic,strong) UFCreditsViewController *creditsView;
 @property (strong, nonatomic) IBOutlet UIButton *tweetButton;

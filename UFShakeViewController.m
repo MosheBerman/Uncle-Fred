@@ -8,8 +8,7 @@
 
 #import "UFShakeViewController.h"
 #import "UFPhrasesListViewController.h"
-#import "phraseDetail.h"
-#import "NavController.h"
+#import "UFPhraseDetailEditorViewController.h"
 #import <Twitter/Twitter.h>
 
 
@@ -102,9 +101,8 @@
 -(IBAction)showEditPhrases:(id)sender{
 
 	UFPhrasesListViewController *phrasesTable = [[UFPhrasesListViewController alloc] initWithStyle:UITableViewStyleGrouped ];
-	phrasesEditor = [[NavController alloc] initWithRootViewController:phrasesTable];
+	phrasesEditor = [[UINavigationController alloc] initWithRootViewController:phrasesTable];
 	phrasesEditor.title = @"Phrases";
-	
 
 	[self presentModalViewController:phrasesEditor animated:YES];
 }

@@ -7,15 +7,11 @@
 //
 
 #import "UFPhrasesListViewController.h"
-#import "phraseDetail.h"
+#import "UFPhraseDetailEditorViewController.h"
 
 @implementation UFPhrasesListViewController
 
-@synthesize doneButton;
-@synthesize phrases;
-
-#pragma mark -
-#pragma mark View lifecycle
+#pragma mark - View lifecycle
 
 
 - (void)viewDidLoad {
@@ -33,25 +29,23 @@
 	[self.navigationController.navigationBar setTranslucent:YES];
 	[self.navigationController.navigationBar setTintColor:[UIColor brownColor ]];
 	
-	[self setTitle:@"UFPhrasesListViewController"];
+	[self setTitle:@"Phrases"];
 	
 	[self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"phrases" ofType:@"png"]]]];
 	
 	//store a copy of the phrases array
-	self.phrases = [[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
+	NSArray *phrases = [[NSArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"customphrases"]];
+    
+    [self setPhrases:phrases];
 }
 
-#pragma mark -
-#pragma mark Editor button controls
+#pragma mark - Editor button controls
 -(void)removeEditor{
-
-	
-	[self.navigationController dismissModalViewControllerAnimated:YES];
-	
+	[self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)showAddView{
-	phraseDetail *detailViewController = [[phraseDetail alloc] initWithNibName:@"phraseDetail" bundle:nil];
+	UFPhraseDetailEditorViewController *detailViewController = [[UFPhraseDetailEditorViewController alloc] initWithNibName:@"phraseDetail" bundle:nil];
 	
 	// Pass the selected object to the new view controller.
 	detailViewController.mode = @"add";
@@ -100,7 +94,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
 	if(section == 0){
-		return [phrases count]; 
+		return [[self phrases] count];
 	}else{
 		return 2;	
 	}
@@ -123,7 +117,7 @@
 	
 	if([indexPath section] == 0){
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-		[cell.textLabel setText:[phrases objectAtIndex:[indexPath row]]];
+		[cell.textLabel setText:[[self phrases] objectAtIndex:[indexPath row]]];
 	}else{
 		if ([indexPath row] == 0) {
 			cell.accessoryType = UITableViewCellAccessoryNone;
@@ -191,7 +185,7 @@
 	// Navigation logic may go here. Create and push another view controller.
 
 	if([indexPath section] == 0){
-	 phraseDetail *detailViewController = [[phraseDetail alloc] initWithNibName:@"phraseDetail" bundle:nil];
+	 UFPhraseDetailEditorViewController *detailViewController = [[UFPhraseDetailEditorViewController alloc] initWithNibName:@"phraseDetail" bundle:nil];
 	
 	// Pass the selected object to the new view controller. //
 	

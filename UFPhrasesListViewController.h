@@ -10,10 +10,7 @@
 
 #import "UFAppDelegate.h"
 
-@interface UFPhrasesListViewController : UITableViewController <UIAlertViewDelegate>{
-	UIBarButtonItem * doneButton;
-	NSArray *phrases;
-}
+@interface UFPhrasesListViewController : UITableViewController <UIAlertViewDelegate>
 
  
 @property (nonatomic, strong) UIBarButtonItem * doneButton;
