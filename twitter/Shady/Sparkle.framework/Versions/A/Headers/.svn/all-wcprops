@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/59/Shady/Sparkle.framework/Versions/A/Headers
+END
+SUVersionComparisonProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/59/Shady/Sparkle.framework/Versions/A/Headers/SUVersionComparisonProtocol.h
+END
+SUUpdater.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/59/Shady/Sparkle.framework/Versions/A/Headers/SUUpdater.h
+END
+Sparkle.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/59/Shady/Sparkle.framework/Versions/A/Headers/Sparkle.h
+END
+SUAppcastItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/59/Shady/Sparkle.framework/Versions/A/Headers/SUAppcastItem.h
+END
+SUAppcast.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/59/Shady/Sparkle.framework/Versions/A/Headers/SUAppcast.h
+END

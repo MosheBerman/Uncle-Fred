@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 18
+/!svn/ver/63/Shady
+END
+NSApplication+DockIcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/59/Shady/NSApplication+DockIcon.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/!svn/ver/46/Shady/main.m
+END
+Shady_Menu_Dark.png
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/62/Shady/Shady_Menu_Dark.png
+END
+NSApplication+DockIcon.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/59/Shady/NSApplication+DockIcon.m
+END
+ShadyAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/62/Shady/ShadyAppDelegate.h
+END
+Shady-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/62/Shady/Shady-Info.plist
+END
+dsa_pub.pem
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/59/Shady/dsa_pub.pem
+END
+Shady_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/46/Shady/Shady_Prefix.pch
+END
+ShadyAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/63/Shady/ShadyAppDelegate.m
+END
+Shady_Menu_Light_Off.png
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/62/Shady/Shady_Menu_Light_Off.png
+END
+Shady.icns
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/!svn/ver/53/Shady/Shady.icns
+END
+MGTransparentWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/53/Shady/MGTransparentWindow.h
+END
+Shady_Menu_Light.png
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/62/Shady/Shady_Menu_Light.png
+END
+MGTransparentWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/58/Shady/MGTransparentWindow.m
+END
+Shady_Menu_Dark_Off.png
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/62/Shady/Shady_Menu_Dark_Off.png
+END
+Shady_Menu_Icons.psd
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/62/Shady/Shady_Menu_Icons.psd
+END
+Shady_Subdued.icns
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/53/Shady/Shady_Subdued.icns
+END
