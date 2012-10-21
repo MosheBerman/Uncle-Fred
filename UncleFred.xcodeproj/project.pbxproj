@@ -260,6 +260,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4664B75E16346A590003D3CF /* Detail Editor */ = {
+			isa = PBXGroup;
+			children = (
+				4682BCC711A73894004F7745 /* UFPhraseDetailEditorViewController.h */,
+				4682BCC811A73894004F7745 /* UFPhraseDetailEditorViewController.m */,
+				4682BCC911A73894004F7745 /* UFPhraseDetailEditorViewController.xib */,
+			);
+			name = "Detail Editor";
+			sourceTree = "<group>";
+		};
+		4664B75F16346A740003D3CF /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				46D6B7AA11E158CF00C1430B /* UFCreditsViewController.h */,
+				46D6B7AB11E158CF00C1430B /* UFCreditsViewController.m */,
+				46D6B7AC11E158CF00C1430B /* UFCreditsViewController.xib */,
+			);
+			name = Credits;
+			sourceTree = "<group>";
+		};
+		4664B76016346A7F0003D3CF /* Phrases List */ = {
+			isa = PBXGroup;
+			children = (
+				4682BEA411A751D9004F7745 /* UFPhrasesListViewController.h */,
+				4682BEA511A751D9004F7745 /* UFPhrasesListViewController.m */,
+			);
+			name = "Phrases List";
+			sourceTree = "<group>";
+		};
+		4664B76116346A870003D3CF /* Shake View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				468EBCCE163461A1000EEB9C /* UFShakeViewController.h */,
+				468EBCCF163461A1000EEB9C /* UFShakeViewController.m */,
+				2899E5210DE3E06400AC0155 /* UFShakeViewController.xib */,
+			);
+			name = "Shake View Controller";
+			sourceTree = "<group>";
+		};
+		4664B76216346A900003D3CF /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				46E779261197C032007EE541 /* UFAppDelegate.h */,
+				46E779271197C032007EE541 /* UFAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
 		469B283F1634571800F6AD98 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,19 +429,11 @@
 		46E7792E1197C04E007EE541 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4682BCC711A73894004F7745 /* UFPhraseDetailEditorViewController.h */,
-				4682BCC811A73894004F7745 /* UFPhraseDetailEditorViewController.m */,
-				4682BCC911A73894004F7745 /* UFPhraseDetailEditorViewController.xib */,
-				46E779261197C032007EE541 /* UFAppDelegate.h */,
-				46E779271197C032007EE541 /* UFAppDelegate.m */,
-				2899E5210DE3E06400AC0155 /* UFShakeViewController.xib */,
-				468EBCCE163461A1000EEB9C /* UFShakeViewController.h */,
-				468EBCCF163461A1000EEB9C /* UFShakeViewController.m */,
-				4682BEA411A751D9004F7745 /* UFPhrasesListViewController.h */,
-				4682BEA511A751D9004F7745 /* UFPhrasesListViewController.m */,
-				46D6B7AA11E158CF00C1430B /* UFCreditsViewController.h */,
-				46D6B7AB11E158CF00C1430B /* UFCreditsViewController.m */,
-				46D6B7AC11E158CF00C1430B /* UFCreditsViewController.xib */,
+				4664B76216346A900003D3CF /* App Delegate */,
+				4664B76116346A870003D3CF /* Shake View Controller */,
+				4664B76016346A7F0003D3CF /* Phrases List */,
+				4664B75F16346A740003D3CF /* Credits */,
+				4664B75E16346A590003D3CF /* Detail Editor */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
